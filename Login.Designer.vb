@@ -45,7 +45,7 @@ Partial Class Login
         '
         'TextBox_NimNip
         '
-        Me.TextBox_NimNip.Location = New System.Drawing.Point(497, 84)
+        Me.TextBox_NimNip.Location = New System.Drawing.Point(422, 104)
         Me.TextBox_NimNip.Name = "TextBox_NimNip"
         Me.TextBox_NimNip.Size = New System.Drawing.Size(222, 26)
         Me.TextBox_NimNip.TabIndex = 1
@@ -53,7 +53,7 @@ Partial Class Login
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(408, 90)
+        Me.Label2.Location = New System.Drawing.Point(418, 81)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(68, 20)
         Me.Label2.TabIndex = 2
@@ -62,7 +62,7 @@ Partial Class Login
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(408, 142)
+        Me.Label3.Location = New System.Drawing.Point(418, 159)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(78, 20)
         Me.Label3.TabIndex = 4
@@ -70,7 +70,7 @@ Partial Class Login
         '
         'Button_login
         '
-        Me.Button_login.Location = New System.Drawing.Point(412, 207)
+        Me.Button_login.Location = New System.Drawing.Point(412, 230)
         Me.Button_login.Name = "Button_login"
         Me.Button_login.Size = New System.Drawing.Size(307, 34)
         Me.Button_login.TabIndex = 5
@@ -79,7 +79,7 @@ Partial Class Login
         '
         'TextBox_Password
         '
-        Me.TextBox_Password.Location = New System.Drawing.Point(497, 136)
+        Me.TextBox_Password.Location = New System.Drawing.Point(422, 182)
         Me.TextBox_Password.Name = "TextBox_Password"
         Me.TextBox_Password.Size = New System.Drawing.Size(222, 26)
         Me.TextBox_Password.TabIndex = 3
@@ -93,7 +93,7 @@ Partial Class Login
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
         '
-        'Form1
+        'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -106,7 +106,7 @@ Partial Class Login
         Me.Controls.Add(Me.TextBox_NimNip)
         Me.Controls.Add(Me.judul)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Form1"
+        Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
