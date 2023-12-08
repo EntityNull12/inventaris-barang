@@ -36,7 +36,7 @@ Partial Class MenuAdmin
         '
         Me.Button1.Location = New System.Drawing.Point(64, 104)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(132, 50)
+        Me.Button1.Size = New System.Drawing.Size(141, 61)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Daftar Admin"
         Me.Button1.UseVisualStyleBackColor = True
@@ -45,7 +45,7 @@ Partial Class MenuAdmin
         '
         Me.Button2.Location = New System.Drawing.Point(64, 175)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(132, 50)
+        Me.Button2.Size = New System.Drawing.Size(141, 61)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Daftar Petugas"
         Me.Button2.UseVisualStyleBackColor = True
@@ -54,7 +54,7 @@ Partial Class MenuAdmin
         '
         Me.Button3.Location = New System.Drawing.Point(577, 104)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(132, 50)
+        Me.Button3.Size = New System.Drawing.Size(141, 61)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Daftar Barang"
         Me.Button3.UseVisualStyleBackColor = True
@@ -63,7 +63,7 @@ Partial Class MenuAdmin
         '
         Me.Button4.Location = New System.Drawing.Point(577, 175)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(132, 50)
+        Me.Button4.Size = New System.Drawing.Size(141, 61)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "Laporan Inventaris"
         Me.Button4.UseVisualStyleBackColor = True

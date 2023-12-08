@@ -129,6 +129,7 @@ Partial Class FormBarang
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FormBarang"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form Barang"
         Me.ResumeLayout(False)
         Me.PerformLayout()

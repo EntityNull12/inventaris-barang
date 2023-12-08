@@ -47,7 +47,7 @@ Partial Class Login
         '
         Me.TextBox_NimNip.Location = New System.Drawing.Point(422, 104)
         Me.TextBox_NimNip.Name = "TextBox_NimNip"
-        Me.TextBox_NimNip.Size = New System.Drawing.Size(222, 26)
+        Me.TextBox_NimNip.Size = New System.Drawing.Size(297, 26)
         Me.TextBox_NimNip.TabIndex = 1
         '
         'Label2
@@ -81,7 +81,7 @@ Partial Class Login
         '
         Me.TextBox_Password.Location = New System.Drawing.Point(422, 182)
         Me.TextBox_Password.Name = "TextBox_Password"
-        Me.TextBox_Password.Size = New System.Drawing.Size(222, 26)
+        Me.TextBox_Password.Size = New System.Drawing.Size(297, 26)
         Me.TextBox_Password.TabIndex = 3
         '
         'PictureBox1

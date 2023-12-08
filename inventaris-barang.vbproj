@@ -85,6 +85,12 @@
     <Compile Include="FormBarang.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Daftar_petugas.Designer.vb">
+      <DependentUpon>Daftar_petugas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Daftar_petugas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,12 @@
       <DependentUpon>Inventaris.vb</DependentUpon>
     </Compile>
     <Compile Include="Inventaris.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPetugas.Designer.vb">
+      <DependentUpon>MenuPetugas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPetugas.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module1.vb" />
@@ -128,6 +140,9 @@
     <EmbeddedResource Include="FormBarang.resx">
       <DependentUpon>FormBarang.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Daftar_petugas.resx">
+      <DependentUpon>Daftar_petugas.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
@@ -136,6 +151,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Inventaris.resx">
       <DependentUpon>Inventaris.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPetugas.resx">
+      <DependentUpon>MenuPetugas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
