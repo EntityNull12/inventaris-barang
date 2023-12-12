@@ -23,7 +23,6 @@ Partial Class MenuAdmin
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MenuAdmin))
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -32,18 +31,9 @@ Partial Class MenuAdmin
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(64, 104)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(141, 61)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Daftar Admin"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(64, 175)
+        Me.Button2.Location = New System.Drawing.Point(132, 324)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(141, 61)
         Me.Button2.TabIndex = 1
@@ -52,7 +42,7 @@ Partial Class MenuAdmin
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(577, 104)
+        Me.Button3.Location = New System.Drawing.Point(545, 311)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(141, 61)
         Me.Button3.TabIndex = 2
@@ -61,7 +51,7 @@ Partial Class MenuAdmin
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(577, 175)
+        Me.Button4.Location = New System.Drawing.Point(337, 324)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(141, 61)
         Me.Button4.TabIndex = 3
@@ -97,7 +87,6 @@ Partial Class MenuAdmin
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MenuAdmin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -107,8 +96,6 @@ Partial Class MenuAdmin
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
