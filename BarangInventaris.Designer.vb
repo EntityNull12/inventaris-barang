@@ -27,22 +27,32 @@ Partial Class BarangInventaris
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(74, 44)
+        Me.DataGridView1.GridColor = System.Drawing.SystemColors.ControlLightLight
+        Me.DataGridView1.Location = New System.Drawing.Point(118, 138)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 62
         Me.DataGridView1.RowTemplate.Height = 28
-        Me.DataGridView1.Size = New System.Drawing.Size(679, 297)
+        Me.DataGridView1.Size = New System.Drawing.Size(543, 283)
         Me.DataGridView1.TabIndex = 0
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(833, 57)
+        Me.Button1.Location = New System.Drawing.Point(708, 137)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(85, 56)
         Me.Button1.TabIndex = 1
@@ -51,7 +61,7 @@ Partial Class BarangInventaris
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(833, 142)
+        Me.Button2.Location = New System.Drawing.Point(708, 249)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(85, 56)
         Me.Button2.TabIndex = 2
@@ -60,28 +70,105 @@ Partial Class BarangInventaris
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(833, 229)
+        Me.Button3.Location = New System.Drawing.Point(708, 365)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(85, 56)
         Me.Button3.TabIndex = 3
         Me.Button3.Text = "Hapus"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(114, 36)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(152, 20)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Id Barang Inventaris"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(118, 72)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(198, 26)
+        Me.TextBox1.TabIndex = 5
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(361, 72)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(198, 26)
+        Me.TextBox2.TabIndex = 7
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(357, 36)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(107, 20)
+        Me.Label2.TabIndex = 6
+        Me.Label2.Text = "Nama Barang"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(595, 72)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(198, 26)
+        Me.TextBox3.TabIndex = 9
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(591, 36)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(53, 20)
+        Me.Label3.TabIndex = 8
+        Me.Label3.Text = "Merek"
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(12, 12)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(80, 44)
+        Me.Button4.TabIndex = 10
+        Me.Button4.Text = "Kembali"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.inventaris_barang.My.Resources.Resources.Gambar_WhatsApp_2023_12_20_pukul_13_121
+        Me.PictureBox2.Location = New System.Drawing.Point(210, 145)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(651, 431)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 11
+        Me.PictureBox2.TabStop = False
+        '
         'BarangInventaris
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(986, 536)
+        Me.ClientSize = New System.Drawing.Size(844, 469)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "BarangInventaris"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Barang Inventaris"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -89,4 +176,12 @@ Partial Class BarangInventaris
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Button4 As Button
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

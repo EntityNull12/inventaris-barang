@@ -79,16 +79,16 @@
     <Compile Include="BarangInventaris.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBarang.Designer.vb">
-      <DependentUpon>FormBarang.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormBarang.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Daftar_petugas.Designer.vb">
       <DependentUpon>Daftar_petugas.vb</DependentUpon>
     </Compile>
     <Compile Include="Daftar_petugas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaporanInventaris.Designer.vb">
+      <DependentUpon>LaporanInventaris.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanInventaris.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.vb">
@@ -110,12 +110,6 @@
     <Compile Include="Inventaris.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuPetugas.Designer.vb">
-      <DependentUpon>MenuPetugas.vb</DependentUpon>
-    </Compile>
-    <Compile Include="MenuPetugas.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -132,16 +126,22 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="RiwayatLaporan.Designer.vb">
+      <DependentUpon>RiwayatLaporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RiwayatLaporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="BarangInventaris.resx">
       <DependentUpon>BarangInventaris.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBarang.resx">
-      <DependentUpon>FormBarang.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Daftar_petugas.resx">
       <DependentUpon>Daftar_petugas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaporanInventaris.resx">
+      <DependentUpon>LaporanInventaris.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
@@ -152,14 +152,14 @@
     <EmbeddedResource Include="Inventaris.resx">
       <DependentUpon>Inventaris.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuPetugas.resx">
-      <DependentUpon>MenuPetugas.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiwayatLaporan.resx">
+      <DependentUpon>RiwayatLaporan.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +167,16 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\DataSources\BarangInventaris.datasource" />
+    <None Include="My Project\DataSources\Daftar_petugas.datasource" />
+    <None Include="My Project\DataSources\FormBarang.datasource" />
+    <None Include="My Project\DataSources\Inventaris.datasource" />
+    <None Include="My Project\DataSources\inventaris_barang.My.MyApplication.datasource" />
+    <None Include="My Project\DataSources\inventaris_barang.My.MySettings.datasource" />
+    <None Include="My Project\DataSources\LaporanInventaris.datasource" />
+    <None Include="My Project\DataSources\Login.datasource" />
+    <None Include="My Project\DataSources\MenuAdmin.datasource" />
+    <None Include="My Project\DataSources\MenuPetugas.datasource" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
@@ -185,6 +195,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="img\logo-polman %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\logo-polman %283%2950.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Gambar WhatsApp 2023-12-20 pukul 13.12.44_81d3acba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Gambar WhatsApp 2023-12-20 pukul 13.12.44_812d3acba.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
